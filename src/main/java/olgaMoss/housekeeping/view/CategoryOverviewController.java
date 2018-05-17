@@ -139,7 +139,7 @@ public class CategoryOverviewController {
         Alert alert = new Alert(Alert.AlertType.WARNING);
         alert.initOwner(mainApp.getPrimaryStage());
         alert.setTitle("Ничего не выбрано");
-        alert.setHeaderText("ВЫбирете операцию");
+        alert.setHeaderText("Выберете операцию");
         alert.setContentText("Пожалуйста, выбирете операции в таблице");
         alert.showAndWait();
     }
